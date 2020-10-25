@@ -593,6 +593,7 @@
     <bool name="config_proximityCheckOnWake">true</bool>
     <bool name="config_proximityCheckOnWakeEnabledByDefault">true</bool>
 
+<<<<<<< HEAD
     <!-- Does the notification LED support multiple colors?
          Used to decide if the user can change the colors -->
     <bool name="config_multiColorNotificationLed">true</bool>
@@ -634,4 +635,12 @@
          correctly use them when installed on your device.  Otherwise, keep this disabled
          so that applications can still use their own mechanisms. -->
     <bool name="config_enableAutoPowerModes">true</bool>
+
+    <!-- List supported color modes. -->
+    <integer-array name="config_availableColorModes">
+        <item>0</item> <!-- COLOR_MODE_NATURAL -->
+        <item>1</item> <!-- COLOR_MODE_BOOSTED -->
+        <item>2</item> <!-- COLOR_MODE_SATURATED -->
+        <item>3</item> <!-- COLOR_MODE_AUTOMATIC -->
+    </integer-array>
 </resources>
