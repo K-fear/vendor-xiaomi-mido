@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/evolution_mido.mk
+    $(LOCAL_DIR)/nad_mido.mk
 
 COMMON_LUNCH_CHOICES := \
-    evolution_mido-user \
-    evolution_mido-userdebug \
-    evolution_mido-eng
+    nad_mido-user \
+    nad_mido-userdebug \
+    nad_mido-eng
