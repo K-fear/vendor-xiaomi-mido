@@ -469,13 +469,6 @@
     <!-- Whether device supports double tap to wake -->
     <bool name="config_supportDoubleTapWake">true</bool>
 
-    <!-- Battery life saver --> 
-    <!-- Disable this if your  device does not support input_suspend or charging_enabled --> 
-    <bool name="config_deviceHasBatteryLifeSaver">true</bool> 
-    <!-- Use /sys/class/power_supply/battery/charging_enabled with inverted values for old devices-->
-    <string name="config_batteryLifeSaverSysfsNode" translatable="false">/sys/class/power_supply/battery/charging_enabled</string> 
-    <string name="config_batteryLifeSaverSysfsNodeStopValue" translatable="false">0</string>
-
     <!-- Boolean indicating if current platform supports HFP inband ringing -->
      <bool name="config_bluetooth_hfp_inband_ringing_support">true</bool>
 
