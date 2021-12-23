@@ -422,10 +422,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     XiaomiParts
 
-# Youtube by Vanced Team
-PRODUCT_PACKAGES += \
-    Youtube
-
 # GCam Go
 PRODUCT_PACKAGES += \
     GCam
+
