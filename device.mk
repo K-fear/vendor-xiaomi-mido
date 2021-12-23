@@ -151,7 +151,8 @@ PRODUCT_PACKAGES += \
     camera.msm8953 \
     libcamshim \
     libmm-qcamera \
-    libui_shim
+    libui_shim \
+    Snap
 
 # Codec2 modules
 PRODUCT_PACKAGES += \
@@ -417,8 +418,4 @@ PRODUCT_COPY_FILES += \
 # XiaomiParts
 PRODUCT_PACKAGES += \
     XiaomiParts
-
-# GCam Go
-PRODUCT_PACKAGES += \
-    GCam
 
