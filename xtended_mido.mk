@@ -22,9 +22,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/mido/device.mk)
 
 # Inherit some common Project-Xtended stuff.
-$(call inherit-product, vendor/kasumi/config/common_full_phone.mk)
+$(call inherit-product, vendor/xtended/config/common_full_phone.mk)
 TARGET_FACE_UNLOCK_SUPPORTED := true
-KASUMI_SHIP_LAWNCHAIR := true
+XTENDED_SHIP_LAWNCHAIR := true
 
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
