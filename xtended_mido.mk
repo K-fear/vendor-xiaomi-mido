@@ -21,7 +21,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from mido device
 $(call inherit-product, device/xiaomi/mido/device.mk)
 
-# Inherit some common Project-Kasumi stuff.
+# Inherit some common Project-Xtended stuff.
 $(call inherit-product, vendor/kasumi/config/common_full_phone.mk)
 TARGET_FACE_UNLOCK_SUPPORTED := true
 KASUMI_SHIP_LAWNCHAIR := true
@@ -31,7 +31,7 @@ TARGET_BOOT_ANIMATION_RES := 1080
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := mido
-PRODUCT_NAME := kasumi_mido
+PRODUCT_NAME := xtended_mido
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 4
 PRODUCT_MANUFACTURER := Xiaomi
